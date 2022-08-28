@@ -1,0 +1,499 @@
+Body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #333366;
+    
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 250px;
+    float: left;
+    
+    }
+
+.menu{
+	
+    float: left;
+    padding-left: 350px;
+	
+
+}
+
+.menu li{
+    color: white;
+	float: left;
+    line-height: 60px;
+    margin-right: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+	
+}
+.main{
+	width: 100%;
+	height: calc(100% - 60px);
+	background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+
+.title_container{
+	float: left;
+	
+	margin: 300px 0px 0px 333px;
+	color: #333333;
+	text-align: center;
+		
+}
+
+.title_container h1{
+	font-size: 50px;
+	font-weight: bold;
+	
+}
+.title_container h4{
+	font-size: 15px;
+	font-weight: 200px;
+	margin-top: 30px;
+	color: #669999;
+}
+
+.title_container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #669999;
+	background: none;
+	border-radius: 5px;
+	color: #669999;
+	font-size: 13px;
+	padding: 0px 16px 0px 16px;
+	margin: 50px 14px 0px 14px;
+	
+}
+
+.about_me_container h2{
+	font-size: 25px;
+	text-align: center;
+	/*border-bottom: 2px solid black;
+	font-size: 20px;
+	width: 120px;*/
+	margin-top: 70px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+
+}
+.about_me_container{
+	width: 700px;
+	margin: 0px auto;
+}
+
+.about_me_container img{
+	display: block;
+	margin: 40px auto;
+}
+.about_me_container hr{
+	
+	height: 4px;
+	border: none;
+	margin: 30px auto;
+	width: 50px;
+	background: #cc6600;
+}
+.about_me_container p{
+	margin-top: 20px;
+}
+
+.about_me_container .Text2{
+	margin-top: 30px;
+	
+}
+.knopka{
+	text-align: center;
+	border: 2px solid #666666;
+	background: none;
+	border-radius: 5px;
+	color: #666666;
+	font-size: 13px;
+	padding: 0px 16px 0px 16px;
+	margin: 50px 300px;
+}
+.skills_container h2{
+	font-size: 25px;
+	text-align: center;
+	
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+
+}
+.skills_container{
+	
+	width: 915px;
+	margin: 0 auto;
+}
+
+.skills_container hr{
+	height: 4px;
+	border: none;
+	margin: 50px auto;
+	width: 50px;
+	background: #cc6600;
+	
+}
+.skills_item{
+	float: left;
+	width: 215px;
+	text-align: center;
+	
+	
+}
+.clear{
+	clear: left;
+}
+
+.skills_item h3{
+	font-size: 18px;
+	margin: 50px auto;
+	color: #cc6600;
+}
+
+.skills_item p{
+	font-size: 15px
+	
+}
+.skills{
+	width: 100%;
+	background: url(../img/bg2.jpg) center/cover no-repeat;
+	height: 530px;
+}
+.keys h2{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50x;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.Keys_text1{
+	font-size: 16px;
+	text-align: center;
+	margin: 30px auto;
+	
+	
+	
+}
+.keys hr{
+	height: 4px;
+	border: none;
+	margin: 50px auto;
+	width: 50px;
+	background: #cc6600;
+}
+.keys_container{
+	width: 230px;
+	height: 177px;
+	margin-left: 200px;
+	margin-top: 0px;
+	float: left
+	
+}
+.keys_container1{
+	width: 100%;
+	margin: 200px auto;
+
+}
+.keys_container h4{
+	text-align: left;
+	font-size: 30px;
+	margin-bottom: 50x;
+	
+}
+
+.keys_container p{
+	text-align: left;
+	font-size: 20px;
+	margin-bottom: 50x;
+	
+}
+
+.Keys_opisanie{
+	width: 850px;
+	height: 82px;
+	margin-left: 600px;
+	margin-top: 200px;
+	line-height: 20px;
+	
+	
+}
+.Keys_opisanie h5{
+	text-align: left;
+	font-size: 20px;
+	margin-bottom: 50x;
+	
+}
+
+.Keys_opbsanie p{
+	text-align: left;
+	font-size: 16px;
+	margin: 0px auto;
+	
+}
+.clear{
+	clear: left;
+}
+
+.keys_container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #66cc99;
+	background-color: #66cc99;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	padding: 0px 16px 0px 16px;
+	
+	margin: 20px 0px 20px 0px;
+	
+}
+
+.kontainer_many{
+	width: 900px;
+	margin: 50px 535px;
+}
+
+.many{
+	width: 100%;
+	text-align: left;
+	
+}
+.many h2{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 50px auto;
+	
+}
+.kontainer_many h4{
+	font-size: 20px;
+	margin: 20px auto;
+}
+.kontainer_many h6{
+	width: 100%;
+	font-size: 16px;
+	margin: 20px auto;
+}
+
+.kontainer_many select{
+	width: 800px;
+	background: #cccccc;
+	font-size: 16px;
+	
+	
+}
+ .kontainer_many hr{
+	height: 4px;
+	border: none;
+	margin: 20px 0px;
+	width: 800px;
+	background: #cccccc;
+}
+
+.statistika_container h2{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+.statistika_container hr{
+	height: 4px;
+	border: none;
+	margin: 10px auto;
+	width: 100px;
+	background: #cc6600;
+}
+
+.statistika_container{
+	width: 100%;
+	background: url(../img/bg3.jpg) center/cover no-repeat;
+
+}
+.stats{
+	width: 1300px;
+	height: 400px;
+	margin-left: 550px;
+	margin-top: 100px;
+	
+}
+
+.container_stats {
+	float: left;
+	width: 215px;
+	text-align: center;
+	
+}
+.container_stats h3{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	margin: 25px auto;
+	text-transform: uppercase;
+}
+
+.container_stats p{
+	text-transform: uppercase;
+	font-size: 16px;
+	
+}
+.otzyv{
+	width: 800px;
+	height: 460px;
+	text-align: center;
+	margin: 0px auto;
+}
+.otzyv h2{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+.otzyv hr{
+	height: 4px;
+	border: none;
+	margin: 50px auto;
+	width: 60px;
+	background: #cc6600;
+}
+.otzyv p{
+	text-align: center;
+	font-size: 16px;
+	margin: 0px auto;
+	 text-indent: -40px;
+     padding-left: 40px;
+}
+.podpic p{
+	text-align: center;
+	font-size: 16px;
+	margin: 20px auto;
+}
+
+.contakt{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: 0px auto;
+	
+}
+.contakt h2{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+.contakt h4{
+	font-size: 20px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	color: white;
+
+}
+.contakt hr{
+	height: 4px;
+	border: none;
+	margin: 50px auto;
+	width: 60px;
+	background: #cc6600;
+}
+.contakt p{
+	font-size: 16px;
+	margin: 0px auto;
+	color: white;
+}
+
+.contakt_svaz{
+	float: left;
+	width: 100%;
+	height: 20%;
+	
+}
+.contakt_svaz p{
+	margin: 20px 20px;	
+	font-size: 20px;
+	color: white;
+}
+.clear{
+	clear: left;
+}
+.contakt_knopki input{
+	height: 40px;
+	width: 400px;
+	text-align: left;
+	border: 2px solid #fff;
+	background-color: #fff;
+	border-radius: 5px;
+	color: #000;
+	font-size: 16px;
+	padding: 0px 16px 0px 16px;
+	margin: 20px 0px 20px 0px;
+}
+.contakt_knopka input{
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	border: 2px solid #000;
+	background-color: #fff;
+	border-radius: 5px;
+	color: #000;
+	font-size: 16px;
+	margin: 20px 0px 20px 0px;
+	margin-bottom: 100px;
+}
+.textarea{
+	height: 40px;
+	width: 100px;
+	border: 2px solid #000;
+	background-color: #000;
+	border-radius: 5px;
+	color: #000;
+}
+.contakt{
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg4.jpg) center/cover no-repeat;
+}
+.kartinka{
+	color: black;
+	float: left;
+}
+.map{
+	display: block;
+	width: 100%;	
+}
+
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: #333366;
+}
+.footer_container p{
+	margin: 20px auto;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
