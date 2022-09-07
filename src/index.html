@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Андрей Браун - Веб-разработчик</title>
@@ -8,6 +8,13 @@
 </head>
 
 <body>
+  <div class="preloader">
+  <div class="preloader__row">
+    <div class="preloader__item"></div>
+    <div class="preloader__item"></div>
+  </div>
+</div>
+ 
    <header>
         <nav>
             <div class="logo">Андрей Браун</div>
@@ -23,7 +30,7 @@
             </div>
             
         </nav>
-    </header>>
+    </header>
    
    <main>
    <section class="main">
@@ -260,6 +267,16 @@
     </div>
    
     </main>
+ 
+  /* <script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+</script> /*
     
 </body>
 </html>
