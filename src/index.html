@@ -9,35 +9,35 @@
 
 <body>
    <header>
-       
-       <nav>
-           
-           <div class="logo">Андрей Браун</div>
-           <div class="menu"><ul>
-               <li><a href="#">Обо мне</a></li>
-               <li><a href="#">Услуги</a></li>
-               <li><a href="#">Кейсы</a></li>
-               <li><a href="#">Прайс</a></li>
-               <li><a href="#">Отзывы</a></li>
-               <li><a href="#">Контакты</a></li>
-           </ul></div>
-           
-       </nav>
-       
-   </header>
+        <nav>
+            <div class="logo">Андрей Браун</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Обо мне</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Кейсы</a></li>
+                    <li><a href="#">Прайс</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>>
    
-   
-   <div class="main">
+   <main>
+   <section class="main">
       <div class="title_container">
        <h1>Привет <br> Я Андрей Браун</h1>
        <h4>Фул стек Веб-разработчик</h4>
-       <input type="submit" value="Обо мне">
-       <input type="submit" value="Мои работы">
+       <input type="button" value="Обо мне">
+       <input type="button" value="Мои работы">
        
-   </div></div>
+   </div>
+   </section>
    
     
-    <div class="obo_mne">
+    <section class="obo_mne">
        <div class="about_me_container">
         <h2>Обо Мне</h2>
         <hr>
@@ -49,34 +49,47 @@
         </div>
         </div>
     
-      </div>       
+      </section>       
     <div class="skills">
        <div class="skills_container">
         
         <h2>Что я умею</h2>
         <hr>
         <div class="skills_item">
+          <div class="content__scale">
            <img src="img/pc.png" alt="скоро будет">
+            </div>           
             <h3>Веб-дизайн</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, tempore.</p>
+           
         </div>
+        
     
         <div class="skills_item">
+          <div class="content__scale">
            <img src="img/log.png" alt="скоро будет">
+           </div>
             <h3>Разработка</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, tempore.</p>
-        </div>
-        <div class="skills_item">
-        <img src="img/log2.png" alt="скоро будет">
         
+        </div>
+        
+        <div class="skills_item">
+        <div class="content__scale">
+        <img src="img/log2.png" alt="скоро будет">
+        </div>
             <h3>CEO-оптимизация</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, tempore.</p>
-        </div>
-        <div class="skills_item">
-        <img src="img/log3.png" alt="скоро будет">
         
+        </div>
+        
+        <div class="skills_item">
+        <div class="content__scale">
+        <img src="img/log3.png" alt="скоро будет">
+        </div>
             <h3>Маркетинг</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, tempore.</p>
+        
         </div>
        <div class="clear"></div>
         </div>
@@ -95,11 +108,14 @@
         <p>Юр/Физ</p>
         <h4>Сайт</h4>
         <p>адрес сайта</p>
-        <input type="submit" value="посмотреть">
+        <input type="button" value="Посмотреть">
         </div>
+        <div class="content__scale2">
         <div class="Keys_opisanie">
+        
         <h5>Название проекта</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ducimus quaerat, neque blanditiis iure sequi ullam magni provident accusamus dolores, dolore assumenda ab eveniet laudantium doloribus itaque, laboriosam atque maxime, harum minus dolor cum omnis. Aliquid molestiae illo veniam sapiente!</p>
+        </div>
         </div>
         
         </div>
@@ -108,46 +124,48 @@
     <div class="clear"></div>
        
    
-       <div class="many">
-        <h2>Расчет стоимости</h2>
-        <div class="kontainer_many">
-        <h4>Тип сайта</h4>
-            <select name="list1" id="list">
-            
-            <option value="Тип 1">Тип 1</option>
-            <option value="Тип 2">Тип 2</option>
-            <option value="Тип 3">Тип 3</option>
-            <option value="Тип 4">Тип 4</option>
-            
-        </select>
-        
-        <h4>Дизайн</h4>
-        
-        <select name="list1" id="list">
-            
-            <option value="Вариант 1">Вариант 1</option>
-            <option value="Вариант 2">Вариант 2</option>
-            <option value="Вариант 3">Вариант 3</option>
-            <option value="Вариант 4">Вариант 4</option>
-            
-        </select>
-       
-       
-        <h4>Адаптивность</h4>
-        
-          <select name="list1" id="list">
-            
-            <option value="Вариант 1">Вариант 1</option>
-            <option value="Вариант 2">Вариант 2</option>
-            <option value="Вариант 3">Вариант 3</option>
-            
-        </select>
-        <hr>
-         <h6><pre>Сроки                                                                                    0</pre></h6>
-         <h6><pre>Стоимость                                                                                0</pre></h6>
-        
-        
-    </div>
+ <div class="calculator">
+        <div class="calculator_container">
+            <h2>Расчет стоимости</h2>
+            <div class="calculator_inner">
+                <h3>Тип Сайта</h3>
+                <select class="mySelect" name="type" id="typeSite">
+                    <option value="1" selected disabled>Выберите пункт</option>
+                    <option value="2">Сайт-визитка</option>
+                    <option value="3">Корпоративный сайт</option>
+                    <option value="4">Интернет-магазин</option>
+                </select>
+                <h3>Дизайн</h3>
+                <select class="mySelect" name="type" id="typeSite">
+                    <option value="1" selected disabled>Выберите пункт</option>
+                    <option value="2">Шаблонный</option>
+                    <option value="3">Уникальный</option>
+                    <option value="4">WOW-Дизайн</option>
+                </select>
+                <h3>Адаптивность</h3>
+                <select class="mySelect" name="type" id="typeSite">
+                    <option value="1" selected disabled>Выберите пункт</option>
+                    <option value="2">Только ПК</option>
+                    <option value="3">Только мобильный сайт</option>
+                    <option value="4">ПК + Мобильный</option>
+                </select>
+                <hr>
+                <div class="calculator_footer">
+                    <div class="days">
+                        <p class="text">Сроки</p>
+                        <pre><p class="digit">                                                                      0</p></pre>
+                        <div class="clear"></div>
+                    </div>
+                    
+                     <div class="price">
+                        <p class="text">Стоимость</p>
+                        <pre><p class="digit">                                                                  0</p></pre>
+                        <div class="clear"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
     </div>
     
     <div class="statistika_container">
@@ -191,57 +209,46 @@
         </div>
     
     </div>
-    <div class="contakt">
-        <h2>Мои контакты</h2>
-        
-        <hr>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, consectetur, autem. Distinctio, accusantium, recusandae? Eaque officiis explicabo voluptates dicta iusto.</p>
-        <div class="contakt_svaz">
-        <div class="contakt_svaz1">
-        
-        <img src="img/geo.png" alt="скоро будет">
-        
-        <p>адрес</p>
+     <div class="contacts">
+        <div class="contacts_container">
+            <h2>Мои Контакты</h2>
+            <hr>
+            <p class="contacts_subscription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ea cum error commodi at obcaecati!</p>
+            <div class="contacts_data">
+                <div class="contacts_data_item">
+                    <img src="img/geo.png" alt="">
+                    <p>Санкт-Петербург, Невский проспект 11</p>
+                </div>
+                <div class="contacts_data_item">
+                    <img src="img/mail.png" alt="">
+                    <p>info@mycompany.ru</p>
+                </div>
+                <div class="contacts_data_item">
+                    <img src="img/tel.png" alt="">
+                    <p>+7 999-999-99-99</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <h3>Оставьте мне сообщение</h3>
+            <form action="#">
+                <div class="contacts_inputs">
+                    <input type="text" placeholder="Имя">
+                    <input class="secondInput" type="text" placeholder="Email">
+                    <div class="clear"></div>
+                </div>
+                <textarea placeholder="Сообщение" name="message" id="messageText" cols="30" rows="10"></textarea>
+                <input type="submit" value="Отправить">
+            </form>
+            <div class="contacts_social">
+                <a href="#"><img src="img/fb.png" alt=""></a>
+                <a href="#"><img src="img/tvit.png" alt=""></a>
+                <a href="#"><img src="img/bool.png" alt=""></a>
+                <a href="#"><img src="img/kat.png" alt=""></a>
+                <a href="#"><img src="img/inst.png" alt=""></a>
+                <a href="#"><img src="img/in.png" alt=""></a>
+                <div class="clear"></div>
+            </div>
         </div>
-        <div class="contakt_svaz1">
-        
-        <img src="img/mail.png" alt="скоро будет">
-        
-        <p>почта</p>
-        </div>
-        
-        <div class="contakt_svaz1">
-        
-        <img src="img/tel.png" alt="скоро будет">
-        
-        <p>телефон</p>
-        </div>
-        
-        </div>
-        <div class="clear"></div>
-        <h4>Оставьте мне сообщение</h4>
-        <div class="contakt_knopki">
-        <input type="text" name="text_input" placeholder="Имя">
-        <input type="text" name="text_input" placeholder="Email">
-        </div>
-        <textarea name="name1" id="" cols="117" rows="10">
-            
-            
-        </textarea>
-        <div class="contakt_knopka">
-        <input type="submit" value="Отправить">
-        </div>
-        <div class="kartinka">
-        <a href="img/fb.png"></a>
-        <a href="img/tvit.png"></a>
-        <a href="img/bool.png"></a>
-        <a href="img/kat.png"></a>
-        <a href="img/inst.png"></a>
-       <a href="img/in.png"></a>
-                        
- </div>
-        
     </div>
     <div class="map">
         <img src="img/map.png" alt="">
@@ -251,8 +258,8 @@
             <p>Copyright 2021 Андрей Браун. Design by Web</p>
         </div>
     </div>
-    
-    
+   
+    </main>
     
 </body>
 </html>
